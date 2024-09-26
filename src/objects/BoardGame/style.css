@@ -1,10 +1,10 @@
 .board-game {
   display: flex;
-  padding: 32px;
+  padding: 4rem;
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 24px 48px;
+  gap: 3rem 6rem;
   flex-wrap: wrap;
   background-color: var(--color-fundo3);
 }
