@@ -1,10 +1,10 @@
 import "./style.css";
 
-function CardGame() {
+function CardGame(icon = "LOGOS", alt = "Minha Logo") {
   return `
     
       <article class = "card-game" >
-    <img src = "./images/LOGOS.svg" alt = "Minha Logo">  
+    <img src = "./images/${icon}.svg" alt = "Minha Logo">  
 
     </article>
 

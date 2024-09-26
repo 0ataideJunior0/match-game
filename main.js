@@ -3,8 +3,8 @@ import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
 
 //import CardHtml from "./src/Components/CardHtml";
-import Boardgame from "./src/objects/BoardGame";
 import ScoreBoard from "./src/objects/ScoreBoard";
+import BoardGame from "./src/objects/BoardGame/";
 
 const $root = document.querySelector("#root");
 
@@ -12,7 +12,7 @@ $root.insertAdjacentHTML(
   "afterbegin",
   `
     ${ScoreBoard()}
-    ${Boardgame(6)}
+    ${BoardGame(1)}
 
     `
 );
