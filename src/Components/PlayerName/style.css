@@ -1,0 +1,5 @@
+.player-name {
+  background-color: var(--color-fundo3);
+  color: var(--color-white);
+  font-size: 3rem;
+}
