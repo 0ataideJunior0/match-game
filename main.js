@@ -6,8 +6,8 @@ import CardHtml from "./src/Components/CardHtml";
 import Boardgame from "./src/objects/BoardGame";
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = Boardgame(2);
+const $htmlBoardGame = Boardgame(6);
 const $htmlcardHtml = CardHtml();
 
 $root.insertAdjacentHTML("afterbegin", $htmlBoardGame);
-$root.insertAdjacentHTML("afterbegin", $htmlcardHtml);
+//$root.insertAdjacentHTML("afterbegin", $htmlcardHtml);
