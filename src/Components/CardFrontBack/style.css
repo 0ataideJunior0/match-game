@@ -6,6 +6,7 @@
   position: relative;
   transform-style: preserve-3d;
   transition: transform 600ms cubic-bezier(1, 0.03, 0.24, 1.44);
+  cursor: pointer;
 }
 .card-sides.-active {
   transform: rotateY(180deg);
