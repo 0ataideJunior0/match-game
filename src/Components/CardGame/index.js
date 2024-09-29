@@ -1,7 +1,7 @@
 import "./style.css";
 
 function CardGame(icon = "LOGOS", alt = "Minha Logo") {
-  return `
+  return /*html*/ ` 
     
       <article class = "card-game" >
     <img src = "./images/${icon}.svg" alt = "Minha Logo">  

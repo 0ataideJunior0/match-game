@@ -1,0 +1,5 @@
+.score-point {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-porple);
+}
