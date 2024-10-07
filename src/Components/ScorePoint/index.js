@@ -1,14 +1,11 @@
 import "./style.css";
-function ScorePoint(icon = "scoreDefault", alt = "scoreDefault") {
+function ScorePoint(points = 0) {
   return /*html*/ `
-
-<div class = "score-point"> 
-    <div class = "one" > <img src = "./images/${icon}.svg" alt = "scoreDefault"> </div>
-    <div class = "two" > <img src = "./images/${icon}.svg" alt = "scoreDefault"> </div>
-    <div class = "three"> <img src = "./images/${icon}.svg" alt = "scoreDefault"> </div>
-
-</div>
-  
+    <ol class="score-point" data-points="${points}">
+    <li class="pointer">um</li>
+    <li class="pointer">dois</li>
+    <li class="pointer">tres</li>
+    </ol>
 `;
 }
 export default ScorePoint;

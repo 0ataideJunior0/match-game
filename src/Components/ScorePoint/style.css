@@ -1,5 +1,26 @@
 .score-point {
+  box-sizing: border-box;
+  height: 20px;
+  width: 50px;
+  background-color: aliceblue;
+  padding: 1px ;
+  border: 2px solid;
+  border-color: var(--color-porple1);
   display: flex;
-  flex-direction: row;
-  background-color: var(--color-porple);
+  gap: 1px;
+}
+.score-point > .pointer{
+  background-color: var(--color-fundo3);
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 33%;
+}
+.score-point[data-points="1"] > .pointer:nth-child(-n+1){
+  background-color: var(--color-green);
+}
+.score-point[data-points="2"] > .pointer:nth-child(-n+2){
+  background-color: var(--color-green);
+}
+.score-point[data-points="3"] > .pointer{
+  background-color: var(--color-green);
 }
