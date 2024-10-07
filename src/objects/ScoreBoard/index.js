@@ -1,3 +1,4 @@
+import ArrowDown from "../../Components/ArrowDown";
 import PlayerName from "../../Components/PlayerName";
 import ScorePoint from "../../Components/ScorePoint";
 import Versus from "../../Components/Versus";
@@ -6,13 +7,12 @@ import "../ScoreBoard/style.css";
 function ScoreBoard() {
   return /*html*/ `
    <header class = "score-board">
+   ${ArrowDown(2)}
    ${PlayerName("Player1")}
-   ${ScorePoint()}
+   ${ScorePoint(2)}
    ${Versus("VS")}
-   ${PlayerName("Player2")}
    ${ScorePoint()}
-  
-
+   ${PlayerName("Player2")}
    </header> 
     
     `;
