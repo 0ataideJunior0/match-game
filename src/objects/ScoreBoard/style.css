@@ -1,8 +1,36 @@
 .score-board {
   display: flex;
+  flex-direction: row;
+  padding-left: 50%;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+  background-color: var(--color-fundo3);
+}
+.score-board.-active1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-left: 14%;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--color-fundo3);
+}
+.score-board.-active2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-left: 82%;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--color-fundo3);
+}
+
+.body-ScoreBoard{
+  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var(--color-fundo3);
