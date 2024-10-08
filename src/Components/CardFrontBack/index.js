@@ -1,7 +1,7 @@
 import CardGame from "../CardGame";
 import "./style.css";
 
-function CardFrontBack() {
+function CardFrontBack(icon, iconAlt) {
   //window é uma variavel global,
   //quando para especificar você precisa passar uma classe
   //no exemplowindow.CardFrontBack = {};
@@ -25,10 +25,10 @@ function CardFrontBack() {
 
 <article class ="card-sides" onClick = "CardFrontBack.HandleClick(event)"> 
 <div class = "card -front">
-    ${CardGame("LOGOS")}
+    ${CardGame()}
     </div>
 <div class = "card -back">
-    ${CardGame("LogoHtml5", "Logo do Html")} 
+    ${CardGame(icon, iconAlt)} 
     </div>
 
 </article>
